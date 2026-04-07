@@ -1,0 +1,16 @@
+{
+  "name": "story-translator-app",
+  "version": "1.0.0",
+  "description": "把事件轉成兒童故事的 app",
+  "main": "server/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "openai": "^4.104.0"
+  }
+}
